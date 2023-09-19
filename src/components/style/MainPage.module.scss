@@ -1,0 +1,72 @@
+.sidebar {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar__sidebar {
+    width: 30%;
+}
+
+.sidebar__main {
+    display: block;
+    box-sizing: border-box;
+    width: 70%;
+    flex: 1;
+    overflow: auto;
+}
+
+.upper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.dialog_bar {
+    border: 1px solid #000000;
+    padding: 10px;
+    list-style: none;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.sent {
+  background-color: #eaf6ff;
+  text-align: right;
+}
+
+.received {
+  background-color: #f7f7f7;
+  text-align: left;
+}
+.lower {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    min-height: 100px;
+}
+.text_area {
+    width: 80%;
+    min-height: 55px;
+    padding: 1px;
+    text-align: start;
+}
+.btn_panel {
+    margin: 10px;
+    margin-right: 0;
+    width: 80%;
+    text-align: right;
+}
+.btn{
+    margin: 10px;
+}
+.typing_bar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,28 @@
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    padding: 1px;
+}
+
+.panel_container {
+    width: 400px;
+    height: 300px;
+    display: block;
+}
+
+.btn {
+    margin: 20px;
+    width: 100px;
+    background-color: rgba($color: #a8adad, $alpha: 0.23);
+}
+
+.inputarea {
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+
+}
